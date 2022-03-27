@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <h1 id="title">Timer</h1>
+        <h3>Por: Maicon L. Giehl, TI2021B</h3>
+        
+    <container>
+        <h1 id="titleCronometro">Cronômetro</h1>
+        <div id="cron">
+            <span id="hour" class="time">00</span><span class="medida">h</span>
+            <span id="minute" class="time">00</span><span class="medida">m</span>
+            <span id="sec" class="time">00</span><span class="medida">s</span>
+            <span id="milisec" class="time">000</span><span class="medida">ms</span>
+
+        </div>
+
+        <div class="botoes">
+            <button onclick="start()">Start</button>
+            <button onclick="pause()" >Pause</button>
+            <button onclick="reset()">Reset</button>
+            
+        </div>
+
+    </container>
+
+    <script src="js/codigo.js"></script>
+</body>
+</html>
