@@ -72,20 +72,10 @@ function batalhar (choose) {
             console.log(choose)
             console.log(npcEscolha)
 
-
-
             // const resultado = document.getElementById("resultado");
-            imprimir()
-        }
-        
-        function imprimir () {
-            let qtdKey = +localStorage.getItem('qtdJogos');
-            let vitoriasKey = +localStorage.getItem('vitorias');
-            let derrotasKey = +localStorage.getItem('derrotas');
-            let empatesKey = +localStorage.getItem('empates');
-        
-            let qtdHtml = document.getElementById("qtdJogos").innerHTML = qtdKey;
-            let vitoriasHtml = document.getElementById("vitorias").innerHTML = vitoriasKey;
-            let derrotasHtml = document.getElementById("derrotas").innerText = derrotasKey;
-            let empatesHtml = document.getElementById("empates").innerText = empatesKey;
+    
+            document.getElementById("qtdJogos").innerHTML = +localStorage.getItem('qtdJogos');
+            document.getElementById("vitorias").innerHTML = +localStorage.getItem('vitorias');
+            document.getElementById("derrotas").innerText = +localStorage.getItem('derrotas');
+            document.getElementById("empates").innerText = +localStorage.getItem('empates');
 }

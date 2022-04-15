@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+
+h1 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 300%;
+    border-bottom: 3px solid white;
+}
+
+#valores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+label {
+    margin-top: 40px;
+}
+
+input {
+    background-color: whitesmoke;
+    width: 60%;
+    height: 30px;
+    text-align: center;
+    font-size: large;
+}
+
+#enviar {
+    display: flex;
+    margin-top: 50px;
+    height: auto;
+    width: 50%;
+    justify-content: center;
+    border: 6px solid brown;
+    cursor: pointer;
+    font-size: larger;
+}
+
+#resultado {
+    display: flex;
+    margin-top: 30px;
+}
+
+fieldset {
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+}
